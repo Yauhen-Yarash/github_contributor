@@ -2,9 +2,9 @@ name: GitHub Scheduled Contributions
 run-name: ${{ github.actor }} is plauing with GitHub Actions 🚀
 on:
   schedule:
-    - cron: '0/10 * * * *'
+    - cron: '*/15 * * * *' 
 jobs:
-  Scheduled-Jobs:
+  test_schedule:
     runs-on: ubuntu-latest
     steps:
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
