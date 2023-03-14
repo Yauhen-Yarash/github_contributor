@@ -1,0 +1,12 @@
+{
+  "name": "github_contributor",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Yauhen-Yarash/github_contributor.git",
+  "author": "Yauhen-Yarash <bokakhado@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "lodash": "^4.17.21"
+  }
+}
